@@ -117,7 +117,7 @@ export default function Hero() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} alignItems={{ xs: 'flex-start', sm: 'center' }}>
+          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ alignItems: { xs: 'flex-start', sm: 'center' } }}>
             <MagneticButton href="/projects" variant="contained" sx={{ px: 4, py: 1.5, fontSize: '1rem' }}>
               View Projects
             </MagneticButton>

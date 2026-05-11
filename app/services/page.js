@@ -98,7 +98,7 @@ function ServiceCard({ service, index }) {
         transition={{ duration: 0.4 }}
       >
         <Box sx={{ p: { xs: 3, md: 5 }, background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '24px', transition: 'border 0.3s ease, box-shadow 0.3s ease', '&:hover': { border: `1px solid ${service.color}30`, boxShadow: `0 10px 40px ${service.color}10` } }}>
-          <Grid container spacing={4} alignItems="flex-start">
+          <Grid container spacing={4} sx={{ alignItems: 'flex-start' }}>
             <Grid size={{ xs: 12, md: 5 }}>
               <Box sx={{ width: 64, height: 64, borderRadius: '16px', background: `${service.color}15`, border: `1px solid ${service.color}30`, display: 'flex', alignItems: 'center', justifyContent: 'center', color: service.color, mb: 3 }}>{service.icon}</Box>
               <Typography variant="overline" sx={{ color: service.color, display: 'block', mb: 1 }}>{service.tagline}</Typography>
