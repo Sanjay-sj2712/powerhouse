@@ -50,6 +50,7 @@ export default function ContactPage() {
             <Typography variant="h6" sx={{ color: '#64748b', fontWeight: 400, maxWidth: 500, mx: 'auto' }}>Tell us about your project. We'll get back to you within 24 hours.</Typography>
           </motion.div>
         </Box>
+        
 
         <Grid container spacing={6} sx={{ mb: 12 }}>
           {/* Contact Info + Booking */}
